@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <footer>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="mx-auto px-4 sm:px-6 bg-cyan-500 w-full text-white">
 
         {/* Top area: Blocks */}
         <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12 border-t border-gray-200">
@@ -24,31 +24,33 @@ function Footer() {
                   </defs>
                   <rect width="32" height="32" rx="16" fill="url(#footer-logo)" fillRule="nonzero" />
                 </svg>
+                <h1 className='text-xl p-2 text-white' >In_Finite Consulting</h1>
+
               </Link>
             </div>
-            <div className="text-sm text-gray-600">
-              <Link to="#" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Terms</Link> · <Link to="#" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Privacy Policy</Link>
+            <div className="text-sm text-white">
+              <Link to="#" className="text-white hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Terms</Link> · <Link to="#" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Privacy Policy</Link>
             </div>
           </div>
 
           {/* 2nd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Products</h6>
+            <h6 className="text-white font-medium mb-2">Products</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Web Studio</Link>
+                <Link to="#" className="text-white hover:text-gray-900 transition duration-150 ease-in-out">Web Studio</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">DynamicBox Flex</Link>
+                <Link to="#" className="text-white hover:text-gray-900 transition duration-150 ease-in-out">DynamicBox Flex</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Programming Forms</Link>
+                <Link to="#" className="text-white hover:text-gray-900 transition duration-150 ease-in-out">Programming Forms</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Integrations</Link>
+                <Link to="#" className="text-white hover:text-gray-900 transition duration-150 ease-in-out">Integrations</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Command-line</Link>
+                <Link to="#" className="text-white hover:text-gray-900 transition duration-150 ease-in-out">Command-line</Link>
               </li>                            
             </ul>
           </div>
@@ -58,19 +60,19 @@ function Footer() {
             <h6 className="text-gray-800 font-medium mb-2">Resources</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Documentation</Link>
+                <Link to="#" className="text-white hover:text-gray-900 transition duration-150 ease-in-out">Documentation</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Tutorials & Guides</Link>
+                <Link to="#" className="text-white hover:text-gray-900 transition duration-150 ease-in-out">Tutorials & Guides</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Blog</Link>
+                <Link to="#" className="text-white hover:text-gray-900 transition duration-150 ease-in-out">Blog</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Support Center</Link>
+                <Link to="#" className="text-white hover:text-gray-900 transition duration-150 ease-in-out">Support Center</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Partners</Link>
+                <Link to="#" className="text-white hover:text-gray-900 transition duration-150 ease-in-out">Partners</Link>
               </li>
             </ul>
           </div>
@@ -80,27 +82,27 @@ function Footer() {
             <h6 className="text-gray-800 font-medium mb-2">Company</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Home</Link>
+                <Link to="#" className="text-white hover:text-gray-900 transition duration-150 ease-in-out">Home</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">About us</Link>
+                <Link to="#" className="text-white hover:text-gray-900 transition duration-150 ease-in-out">About us</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Company values</Link>
+                <Link to="#" className="text-white hover:text-gray-900 transition duration-150 ease-in-out">Company values</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Pricing</Link>
+                <Link to="#" className="text-white hover:text-gray-900 transition duration-150 ease-in-out">Pricing</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Privacy Policy</Link>
+                <Link to="#" className="text-white hover:text-gray-900 transition duration-150 ease-in-out">Privacy Policy</Link>
               </li>
             </ul>
           </div>
 
           {/* 5th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
-            <h6 className="text-gray-800 font-medium mb-2">Subscribe</h6>
-            <p className="text-sm text-gray-600 mb-4">Get the latest news and articles to your inbox every month.</p>
+            <h6 className="text-white font-medium mb-2">Subscribe</h6>
+            <p className="text-sm text-white mb-4">Get the latest news and articles to your inbox every month.</p>
             <form>
               <div className="flex flex-wrap mb-4">
                 <div className="w-full">
@@ -152,7 +154,7 @@ function Footer() {
           </ul>
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">Made by <a className="text-blue-600 hover:underline" href="https://cruip.com/">Cruip</a>. All rights reserved.</div>
+          <div className="text-sm text-white mr-4">Made by <a className="text-white hover:underline" href="https://in-finite.com/">In-finite Consulting</a>. All rights reserved.</div>
 
         </div>
 

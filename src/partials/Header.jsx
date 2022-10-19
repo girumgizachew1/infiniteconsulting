@@ -15,14 +15,14 @@ function Header() {
   }, [top]);  
 
   return (
-    <header className={`fixed w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${!top && 'bg-white backdrop-blur-sm shadow-lg'}`}>
+    <header className={`fixed w-full h-20 z-30 md:bg-opacity-90 transition duration-300  ease-in-out ${!top && 'bg-gray-100 backdrop-blur-sm shadow-lg'}`}>
       <div className="max-w-6xl mx-auto px-5 sm:px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
 
           {/* Site branding */}
           <div className="flex-shrink-0 mr-4">
             {/* Logo */}
-            <Link to="/" className="block" aria-label="Cruip">
+            <Link to="/" className="block flex flex-row" aria-label="Cruip">
               <svg className="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <radialGradient cx="21.152%" cy="86.063%" fx="21.152%" fy="86.063%" r="79.941%" id="header-logo">
@@ -33,22 +33,30 @@ function Header() {
                 </defs>
                 <rect width="32" height="32" rx="16" fill="url(#header-logo)" fillRule="nonzero" />
               </svg>
+              <h1 className='text-2xl p-2 text-cyan-500 font-bold' >In_Finite Consulting</h1>
             </Link>
           </div>
 
           {/* Site navigation */}
           <nav className="flex flex-grow">
-            <ul className="flex flex-grow justify-end flex-wrap items-center">
+            <ul className="flex flex-grow justify-end flex-wrap items-center space-x-2">
               <li>
-                <Link to="/signin" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Sign in</Link>
+                <Link to="/about" className="font-medium text-gray-800 rounded-xl hover:text-cyan-800 px-5 py-3 flex items-center transition duration-150 ease-in-out">About us</Link>
               </li>
               <li>
-                <Link to="/signup" className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3">
-                  <span>Sign up</span>
-                  <svg className="w-3 h-3 fill-current text-gray-400 flex-shrink-0 ml-2 -mr-1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z" fillRule="nonzero" />
-                  </svg>                  
-                </Link>
+                <Link to="/service" className="font-medium text-gray-800 rounded-xl round-sm hover:text-cyan-800 px-5 py-3 flex items-center transition duration-150 ease-in-out">Services</Link>
+              </li>
+              <li>
+                <Link to="/team" className="font-medium text-gray-800 rounded-xl hover:text-cyan-800 px-5 py-3 flex items-center transition duration-150 ease-in-out">Team</Link>
+              </li>
+              <li>
+                <Link to="/contact" className="font-medium text-gray-800 rounded-xl hover:text-cyan-800 px-5 py-3 flex items-center transition duration-150 ease-in-out">Contact</Link>
+              </li>
+              <li>
+                <Link to="/signUp" className="font-medium text-white rounded-xl bg-cyan-500 hover:bg-cyan-600 px-5 py-3 flex items-center transition duration-150 ease-in-out">Make An appointment</Link>
+              </li>
+              <li>
+                
               </li>
             </ul>
 

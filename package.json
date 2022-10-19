@@ -12,9 +12,11 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-flatpickr": "^3.10.13",
+    "react-multi-carousel": "^2.8.2",
     "react-router-dom": "^6.3.0",
     "react-transition-group": "^4.4.2",
-    "sticky-js": "^1.3.0"
+    "sticky-js": "^1.3.0",
+    "swiper": "^8.4.4"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^2.0.0",

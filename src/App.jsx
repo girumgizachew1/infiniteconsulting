@@ -11,8 +11,12 @@ import './css/style.css';
 import AOS from 'aos';
 
 import Home from './pages/Home';
-import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
+import About from './pages/about';
+import Service from './pages/services';
+import Team from './pages/team';
+import Contact from './pages/contact';
+
 import ResetPassword from './pages/ResetPassword';
 
 function App() {
@@ -38,7 +42,10 @@ function App() {
     <>
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/signin" element={<SignIn />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/service" element={<Service />} />
+        <Route path="/team" element={<Team />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/reset-password" element={<ResetPassword />} />
       </Routes>
