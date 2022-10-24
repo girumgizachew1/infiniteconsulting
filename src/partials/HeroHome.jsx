@@ -156,7 +156,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
                 </svg>
               </div>
               <div className='flex align-center flex-col basic-1/2 mx-auto w-full'>
-               <div className='px-16' > <h1 className='h2 text-cyan-600'> Mr Tesema Belachew</h1>
+               <div className='px-16' > <h1 className='h2 text-cyan-600'> Mr Girum</h1>
                 <h1 className='h4  text-black'> Founder</h1>
                 <h1 className='h2  text-black'> " </h1>
                 <h1 className='h5  text-black'> At Infinite Consulting, we have earned a reputation for helping our government clients. </h1>
