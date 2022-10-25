@@ -104,11 +104,10 @@ function SignIn() {
                     <h1>hey</h1>
                     </div>
                     <h6 className="text-xl font-semibold">
-                      Give Parent a voice
+                      Our Vission 
                     </h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Get parents engaged by Sharing photos and videos of
-                      wonderful classroom moments.
+                    We’re on a mission to build a better future where technology creates good jobs and marvelous labor-saving inventions for everyone. 
                     </p>
                   </div>
                 </div>
@@ -121,7 +120,7 @@ function SignIn() {
                      <h1>hey2</h1>
                     </div>
                     <h6 className="text-xl text-white font-semibold">
-                      Create a positive School culture
+                      What are we 
                     </h6>
                     <p className="mt-2 mb-4 text-white">
                       Teachers can encourage students for any skill or value
@@ -139,11 +138,11 @@ function SignIn() {
                      <h1>hey3</h1>
                     </div>
                     <h6 className="text-xl font-semibold">
-                      Amazing tools For Teachers
+                      Our Mission
                     </h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Five to one student grouping, Attendance Monitoring
-                      ,Behaviour Monitoring and Result Monitoring .
+                    We’re on a mission to build a better future where technology creates good jobs and marvelous 
+                    labor-saving inventions for everyone.
                     </p>
                   </div>
                 </div>
@@ -152,7 +151,7 @@ function SignIn() {
         <section className='text-center px-24 py-16'>
           <div className="pr-12 ">
                   <h1 className="text-cyan-700 text-3xl mt-2 font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out" data-aos-delay="400">
-                    Who We Are.
+                    Company
                   </h1>
                   <p className="mt-4 text-base text-gray-800 mb-8" data-aos="zoom-y-out" data-aos-delay="400" > 
                   Infinite consulting is a technology solution provider company situated in Addis Ababa, 
