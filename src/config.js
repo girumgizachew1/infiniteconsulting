@@ -1,5 +1,5 @@
 // in config.js
-import { createChatBotMessage } from 'react-chatbot-kit';
+import  createChatBotMessage  from 'react-chatbot-kit';
 
 const botName = 'Infinite';
 
