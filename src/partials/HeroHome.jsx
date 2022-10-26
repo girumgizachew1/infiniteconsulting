@@ -39,7 +39,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
   function HeroHome() {
 
  
-  const [videoModalOpen, setVideoModalOpen] = useState(false);
+//  const [videoModalOpen, setVideoModalOpen] = useState(false);
 
   return (
     <section className="relative w-full">
